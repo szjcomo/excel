@@ -1,0 +1,22 @@
+{
+    "name": "szjcomo/excel",
+    "description": "这是一个操作php操作excel的库，需要安装扩展依赖 pecl install xlswriter",
+    "type": "library",
+    "require": {
+        "shuchkin/simplexlsx": "^0.8.9",
+        "shuchkin/simplexls": "^0.9.4",
+        "php": ">=5.6"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "como",
+            "email": "814655481@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "szjcomo\\excel\\": "src/szjcomo/excel"
+        }
+    }
+}
